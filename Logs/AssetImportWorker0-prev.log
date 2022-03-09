@@ -1,0 +1,381 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.10f1 (ee872746220e) revision 15632167'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16179 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/CS4240Projects/Assignment 1/Assignment1.1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65505
+Successfully changed project path to: C:/CS4240Projects/Assignment 1/Assignment1.1
+C:/CS4240Projects/Assignment 1/Assignment1.1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 105.45 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.10f1 (ee872746220e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/CS4240Projects/Assignment 1/Assignment1.1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8089 MB
+    Driver:   27.20.100.8439
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005228 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 106.82 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.496 seconds
+Domain Reload Profiling:
+	ReloadAssembly (496ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (386ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (79ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (246ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005431 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\CS4240Projects\Assignment 1\Assignment1.1\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\CS4240Projects\Assignment 1\Assignment1.1\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.34 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.013 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1013ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (852ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (478ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4995 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (2.2 MB). Loaded Objects now: 5475.
+Memory consumption went from 280.1 MB to 277.9 MB.
+Total: 5.426400 ms (FindLiveObjects: 0.581400 ms CreateObjectMapping: 0.551400 ms MarkObjects: 3.521700 ms  DeleteObjects: 0.770300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1414426.348674 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K 1.hdr
+  artifactKey: Guid(c014dc8ee03ff77499f74ee829e05fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K 1.hdr using Guid(c014dc8ee03ff77499f74ee829e05fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418e9a04f5813eacfd45abd5920a9462') in 1.705340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 360.652998 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 4/Materials/Generic Cliff 4.mat
+  artifactKey: Guid(f59ba79cfe0276d459c07158d1572145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 4/Materials/Generic Cliff 4.mat using Guid(f59ba79cfe0276d459c07158d1572145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6c964b31fc6806ed2e1acfb85b98b5') in 0.102317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.100252 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 2/Materials/MRL_Rock_Medium 2.mat
+  artifactKey: Guid(e1cd7c53516c90e4eb2c6802e85dc9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 2/Materials/MRL_Rock_Medium 2.mat using Guid(e1cd7c53516c90e4eb2c6802e85dc9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbad818b99adb69a016f6a76e7aaf50c') in 0.013542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.099593 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/MRL_Generic Cliff 7.prefab
+  artifactKey: Guid(3aca3723459cd6145a26bc09fb0e3dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/MRL_Generic Cliff 7.prefab using Guid(3aca3723459cd6145a26bc09fb0e3dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e8ea05e5513513addfdedb8bf839a8') in 0.028996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.316385 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 3/MRL_Generic Cliff 3.prefab
+  artifactKey: Guid(b92a643509ab79544a851dead5ccca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 3/MRL_Generic Cliff 3.prefab using Guid(b92a643509ab79544a851dead5ccca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021df1ffcb215471b9c041f2bc179b63') in 0.015503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.101084 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Mountain Rocks/Materials/Mountain Rocks 1.mat
+  artifactKey: Guid(831c9c30917d5db4eaafadaaeef6d07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Mountain Rocks/Materials/Mountain Rocks 1.mat using Guid(831c9c30917d5db4eaafadaaeef6d07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd11a5967dd8225f0175a516812e4326') in 0.012865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019105 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 1/MRL_Rock_Medium 1.prefab
+  artifactKey: Guid(3af00ddf5db22924eb61e74e65f7d734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 1/MRL_Rock_Medium 1.prefab using Guid(3af00ddf5db22924eb61e74e65f7d734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f49cd8943b3e45396ede90da141af2') in 0.014805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.229555 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 3/Materials/MRL_Generic Cliff 3.mat
+  artifactKey: Guid(703aa4369032ad54b9abfb04a26ce45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 3/Materials/MRL_Generic Cliff 3.mat using Guid(703aa4369032ad54b9abfb04a26ce45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dd85ce7f518bbcfcd2dc1b8dd124b2') in 0.011660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.202085 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 4/Generic Cliff 4.prefab
+  artifactKey: Guid(b4525aed3dc3e8b4896e63eaae30144f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 4/Generic Cliff 4.prefab using Guid(b4525aed3dc3e8b4896e63eaae30144f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b434e7cd71b61c111be4b6328ab0a9') in 0.014249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.428364 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Rock_Medium/MRL_Low Rock_Medium.prefab
+  artifactKey: Guid(b47b1a183b98acc48ad491e2406dc432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Rock_Medium/MRL_Low Rock_Medium.prefab using Guid(b47b1a183b98acc48ad491e2406dc432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336f1dac5e4dfcafe630e9bc5fb13585') in 0.017217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221993 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_High Cliff_Large/MRL_High Cliff_Large 1.prefab
+  artifactKey: Guid(18844e90ff87eb4438ea786fe1d266cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_High Cliff_Large/MRL_High Cliff_Large 1.prefab using Guid(18844e90ff87eb4438ea786fe1d266cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30d4911dc32da4de6f1204417d0fe43') in 0.014079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.187692 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 5/MRL_Generic Cliff 5.prefab
+  artifactKey: Guid(d6dc584291af5db48985299ab4f18d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 5/MRL_Generic Cliff 5.prefab using Guid(d6dc584291af5db48985299ab4f18d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda8024fc4b1189faab17de6e6432a96') in 0.014555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035572 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Cliff_Medium/Materials/MRL_Low Cliff_Medium.mat
+  artifactKey: Guid(5cdf23cad68f74f47a52d00fd000e10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Cliff_Medium/Materials/MRL_Low Cliff_Medium.mat using Guid(5cdf23cad68f74f47a52d00fd000e10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6245fbb2cc8eef7743aaf0a6515f73') in 0.012376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029063 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 2/MRL_Generic Cliff 2.prefab
+  artifactKey: Guid(8e8cc1c25e4c012449f47a634d397e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 2/MRL_Generic Cliff 2.prefab using Guid(8e8cc1c25e4c012449f47a634d397e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630ee6c971c56bc55390c86886c0eb3c') in 0.015802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.157641 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 1/MRL_Generic Cliff 1.prefab
+  artifactKey: Guid(31be2562b898f1f47b143cf0c057a885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 1/MRL_Generic Cliff 1.prefab using Guid(31be2562b898f1f47b143cf0c057a885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a64f1d2fcbdb660efb41dcd44fb7ac') in 0.014445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032290 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Mountain Rocks/Mountain Rocks 1.prefab
+  artifactKey: Guid(d971e1180ed0164429565de418045a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Mountain Rocks/Mountain Rocks 1.prefab using Guid(d971e1180ed0164429565de418045a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f454449f97ce877026d263f3a607f7b') in 0.014988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021512 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 1/Materials/MRL_Rock_Medium 1.mat
+  artifactKey: Guid(fef52592b2ad2a949ba9cdd2778aa21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 1/Materials/MRL_Rock_Medium 1.mat using Guid(fef52592b2ad2a949ba9cdd2778aa21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac7a3cbb23175dbb153de055709e6d5') in 0.012483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.157954 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/Materials/MRL_Generic Cliff 6.mat
+  artifactKey: Guid(a28351991584f22438a309160d187dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/Materials/MRL_Generic Cliff 6.mat using Guid(a28351991584f22438a309160d187dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfba31d14691d756a2efe2e2da982679') in 0.012868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180870 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 1/Materials/MRL_Generic Cliff.mat
+  artifactKey: Guid(644e9cb1701065b498fd7c53bb20793c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 1/Materials/MRL_Generic Cliff.mat using Guid(644e9cb1701065b498fd7c53bb20793c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cde8bc916cf233048e697aac03dd43') in 0.013732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030981 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Cliff_Medium/MRL_Low Cliff_Medium.prefab
+  artifactKey: Guid(84e3ce602c993b342bd26896a5a6203b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Cliff_Medium/MRL_Low Cliff_Medium.prefab using Guid(84e3ce602c993b342bd26896a5a6203b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defdb61a26b3fa468e7433a34fbb7848') in 0.014122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.772911 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 5/Materials/MRL_Generic Cliff 5.mat
+  artifactKey: Guid(ddd91943b6b01cc4e9e590a5e328191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 5/Materials/MRL_Generic Cliff 5.mat using Guid(ddd91943b6b01cc4e9e590a5e328191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f51657b5ed77ae6b8b54abeba5e4858') in 0.013135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.177132 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 2/Materials/MRL_Generic Cliff 2.mat
+  artifactKey: Guid(c7cb0e41ad48ebb4ab491268603bfd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 2/Materials/MRL_Generic Cliff 2.mat using Guid(c7cb0e41ad48ebb4ab491268603bfd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41afc280638416e7a8aace8cd9b2ff7') in 0.011904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007219 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 3/MRL_Rock_Medium 3.prefab
+  artifactKey: Guid(146fe48d3eac509409646b4c8407ab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 3/MRL_Rock_Medium 3.prefab using Guid(146fe48d3eac509409646b4c8407ab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ed9f5478e4100eb2c6814e03e9de07') in 0.013103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.142189 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 2/MRL_Rock_Medium 2.prefab
+  artifactKey: Guid(e2653702e9f1b444882d680716a1127f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 2/MRL_Rock_Medium 2.prefab using Guid(e2653702e9f1b444882d680716a1127f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29809145bd59baa63ffb0c1ae58d8e9e') in 0.013004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.207846 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Rock_Medium/Materials/MRL_Low Rock_Medium.mat
+  artifactKey: Guid(bb1c83d30bb66964f995bbf1ef452fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Rock_Medium/Materials/MRL_Low Rock_Medium.mat using Guid(bb1c83d30bb66964f995bbf1ef452fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f363c1cde4f8b9c0395fc46d0ff460') in 0.012121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007426 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 3/Materials/MRL_Rock_Medium 3.mat
+  artifactKey: Guid(39c12c011d7ba8741902dca79398befd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 3/Materials/MRL_Rock_Medium 3.mat using Guid(39c12c011d7ba8741902dca79398befd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38823641131c3c765ad0b0d861d6d64') in 0.012557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.160423 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_High Cliff_Large/Materials/MRL_High Cliff_Large.mat
+  artifactKey: Guid(1b2e8e5f5553ab346a429948b5dabfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_High Cliff_Large/Materials/MRL_High Cliff_Large.mat using Guid(1b2e8e5f5553ab346a429948b5dabfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cfe621baee8e269d05852da77000aa') in 0.017711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.571116 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_RockSharp 1_DRockSharp 1_N793646612c42751.terrainlayer
+  artifactKey: Guid(bbce8be0c5659ad468329b213d1952f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_RockSharp 1_DRockSharp 1_N793646612c42751.terrainlayer using Guid(bbce8be0c5659ad468329b213d1952f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91051264fce05082fbd204ac12ae68d4') in 0.019126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.366441 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Groundplants 1_DGroundplants 1_N2023054508611406.terrainlayer
+  artifactKey: Guid(0f35979931c8e2748b3b7c1816040074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Groundplants 1_DGroundplants 1_N2023054508611406.terrainlayer using Guid(0f35979931c8e2748b3b7c1816040074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6dc42e0e8ae572e23173b8e7b49152') in 0.010780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 192.356921 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_MRLGenericGrass_DiffuseMRLGenericGrass_Normal3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(b378ee18c3f4b4c46aaef89b6d65896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_MRLGenericGrass_DiffuseMRLGenericGrass_Normal3d3aba195e4d26ee.terrainlayer using Guid(b378ee18c3f4b4c46aaef89b6d65896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314226ce2e5cb809d0a6f155ee39ac82') in 0.025018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 247.375636 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffA_DiffuseMobile.mat
+  artifactKey: Guid(c38516a998ce6e94d922ad82a424e9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffA_DiffuseMobile.mat using Guid(c38516a998ce6e94d922ad82a424e9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c13ffbfa5137d53b05438028413b65f') in 0.013338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.369095 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_LowRockMedium_Mobile.mat
+  artifactKey: Guid(fda213ba68a53de4da95946ef7f5dbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_LowRockMedium_Mobile.mat using Guid(fda213ba68a53de4da95946ef7f5dbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2192fe670a822e4cb691a5e6fd44ecb5') in 0.013028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047717 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffB.mat
+  artifactKey: Guid(7d83b943a5802e14499a11a38ac8946d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffB.mat using Guid(7d83b943a5802e14499a11a38ac8946d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04b9ec87c9cae51f4ebd85c485bcf79') in 0.172055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.832789 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffB_Mobile.mat
+  artifactKey: Guid(9d1903eb1bcfb1d42acfbd4d8c7a90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffB_Mobile.mat using Guid(9d1903eb1bcfb1d42acfbd4d8c7a90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a9484eff212907e7b56eb841b77937') in 0.012426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.171536 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_LowRockMedium.mat
+  artifactKey: Guid(acfb34e7f1f1e034ab5611b5985295a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_LowRockMedium.mat using Guid(acfb34e7f1f1e034ab5611b5985295a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed188972ee69550487c07bfbfc0c72d4') in 0.048350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.177112 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffA.mat
+  artifactKey: Guid(478e0b09975d17c428b33b74656eba2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffA.mat using Guid(478e0b09975d17c428b33b74656eba2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960a4e8d5c5819b9e9753a7f4b90bb14') in 0.035909 seconds 
